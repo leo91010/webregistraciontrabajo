@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import com.worldline.webregistraciontrabajo.entities.UsuariosWeb;
 import com.worldline.webregistraciontrabajo.repositories.UsuariosWebRepository;
 
-@Service
+
 public class UsuarioWebServices {
 	
-	@Autowired
+
 	private final UsuariosWebRepository webRegisServRepo;
 	
 	public UsuarioWebServices(UsuariosWebRepository webRegisServRepo) {

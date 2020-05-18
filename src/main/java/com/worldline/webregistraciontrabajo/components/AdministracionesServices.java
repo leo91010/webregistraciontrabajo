@@ -11,10 +11,11 @@ import com.worldline.webregistraciontrabajo.entities.UsuariosWeb;
 import com.worldline.webregistraciontrabajo.repositories.AdministracionesRepository;
 import com.worldline.webregistraciontrabajo.repositories.UsuariosWebRepository;
 
-@org.springframework.stereotype.Service
 public class AdministracionesServices {
 	
-	@Autowired
+	
+	
+
 	private final AdministracionesRepository administracionesRepo;
 	
 	
@@ -24,10 +25,15 @@ public class AdministracionesServices {
 		
 	}
 	
+
+
+
+
 	private List<Administraciones> findAll() {
 		return administracionesRepo.findAll();
 		
 	}
+	
 	
 	private Administraciones findById(int id) {
 		return null;
@@ -38,6 +44,7 @@ public class AdministracionesServices {
 	
 	private void deleteById(int id) {
 	}
+	
 	
 
 }

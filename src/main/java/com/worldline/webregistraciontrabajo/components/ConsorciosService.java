@@ -10,10 +10,10 @@ import com.worldline.webregistraciontrabajo.entities.UsuariosWeb;
 import com.worldline.webregistraciontrabajo.repositories.ConsorciosRepository;
 import com.worldline.webregistraciontrabajo.repositories.UsuariosWebRepository;
 
-@Service
+
 public class ConsorciosService {
 	
-	@Autowired
+
 	private final ConsorciosRepository consorciosRepo;
 	
 	public ConsorciosService(ConsorciosRepository consorciosRepo) {

@@ -13,7 +13,6 @@ import com.worldline.webregistraciontrabajo.components.AdministracionesServices;
 @RestController
 public class AdministracionesController {
 	
-	@Autowired
 	private AdministracionesServices administracionesServices;
 	
 	@GetMapping("/getAdministraciones")
